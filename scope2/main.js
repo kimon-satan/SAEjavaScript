@@ -1,3 +1,5 @@
+//which of the variables are global and which are local
+
 
 var foo = function(){
    
@@ -7,7 +9,10 @@ var foo = function(){
 
 }
 
-foo();
+foo(); 
+
+//CHALLENGE 1: modify foo so that c can be read from outside of the function
+//CHALLENGE 2: make b local 
 
 document.write("the value of a is " + a);
 document.write("<BR><BR>");
@@ -19,3 +24,5 @@ try{
 }catch(e){
     document.write("but the value of c is not accessible globally"); 
 }
+
+

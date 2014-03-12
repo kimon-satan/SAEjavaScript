@@ -1,3 +1,4 @@
+//Demostrating nearest scope and implicitily declared globals
 
 var foo = function(){
    
@@ -16,6 +17,8 @@ var foo = function(){
 }
 
 foo();
+
+//CHALLENGE : get rid of the nasty implicit declaration and make b a properly declared global variable
 
 try{
     document.write("the value of a is " + a);
