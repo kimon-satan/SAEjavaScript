@@ -2,7 +2,7 @@
 //var declarations registers variables first but initialisation happens later
 
 console.log("a: " + a);
-//console.log("b: " + b);  //uncommented this will cause a crash
+console.log("b: " + b);  //uncommented this will cause a crash
 var a = "a";
 b = "b";
 
