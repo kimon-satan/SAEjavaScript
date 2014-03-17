@@ -9,8 +9,8 @@ console.log(isNimble(), canFly(), isDeadly());
 //which of them is able to run before it is defined in the code ?
 
 
-//Experiment 2: try nesting that function inside an anonymous auto executing function
-// can it be accessed outside the anonymous function ?
+//Experiment 2: try nesting the various function inside an anonymous auto executing function
+// which one can be accessed outside the anonymous function ?
 
 (function(){
 
